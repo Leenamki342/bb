@@ -21,6 +21,47 @@
                 <input type="radio" name="gender" values="woman" /> 여자
             </label>
         </fieldset>
+        <fieldset>
+            <legend>취미 정보 선택</legend>
+            <label>
+                <input type="checkbox" name="hobby" value="piano"/> 피아노
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="carom""/> 당구
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="beer"/> 맥주
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="etc"/> 기타
+            </label>
+        </fieldset>
+        <label for="job">직업선택</label>
+        <select name="job" id="job">
+            <option value="">선택</option>
+            <option value="teacher">선생님</option>
+            <option value="doctor">의사</option>
+            <option value="developer">개발자</option>
+            <option value="etc">기타</option>
+        </select>
+        <br/>
+        <label for="lunch">점심</label>
+        <select name="lunch" id="lunch" multiple>
+            <option>선택</option>
+            <option>짬뽕</option>
+            <option>자장면</option>
+            <option>군만두</option>
+            <option>탕수육</option>
+        </select>
+        <br/>
+        <label for="coffee">음료 선택</label>
+        <select name="coffee" id="coffee">
+            <optgroup label="에스프레소">
+                <option>아메리카노</option>
+                <option>카페라떼</option>
+                <option>카페모카</option>
+            </optgroup>
+        </select>
     </form>
 </body>
 </html>
